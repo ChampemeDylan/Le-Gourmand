@@ -18,7 +18,7 @@ h4 {
     margin-bottom: 30px;
 }
 .jumbotron {
-    background-color: #f4511e;
+    background-color: rgb(59, 59, 58);
     color: #fff;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
@@ -67,22 +67,45 @@ h4 {
 .item span {
     font-style: normal;
 }
-.panel {
-    border: 1px solid #f4511e;
+.gitePanel {
+    border: 1px solid rgb(36, 152, 30);
     border-radius:0 !important;
     transition: box-shadow 0.5s;
+}
+.restaurantPanel {
+    border: 1px solid rgb(154, 40, 20);
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+}
+.a {
+  color: white;
 }
 .panel:hover {
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
 }
-.panel-footer .btn:hover {
-    border: 1px solid #f4511e;
+.btnGite:hover {
+    border: 1px solid rgb(36, 152, 30);
     background-color: #fff !important;
-    color: #f4511e;
+    color: rgb(36, 152, 30);
 }
-.panel-heading {
+.btnRestaurant:hover {
+    border: 1px solid rgb(154, 40, 20);
+    background-color: #fff !important;
+    color: rgb(154, 40, 20);
+}
+.panel-restaurant {
     color: #fff !important;
-    background-color: #f4511e !important;
+    background-color: rgb(154, 40, 20) !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.panel-gite {
+    color: #fff !important;
+    background-color: rgb(36, 152, 30) !important;
     padding: 25px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
@@ -100,9 +123,14 @@ h4 {
     color: #aaa;
     font-size: 14px;
 }
-.panel-footer .btn {
+.panel-footer .btnGite {
     margin: 15px 0;
-    background-color: #f4511e;
+    background-color: rgb(36, 152, 30);
+    color: #fff;
+}
+.panel-footer .btnRestaurant {
+    margin: 15px 0;
+    background-color: rgb(154, 40, 20);
     color: #fff;
 }
 .navbar {
