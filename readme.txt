@@ -57,3 +57,4 @@ A Proximité :
 #                             A demander                                 #
 ##########################################################################
 Quels équipements à mettre en avant ?
+Quelle couleur ?
