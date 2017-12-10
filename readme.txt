@@ -46,12 +46,12 @@ Contact :
   Mail :
 
 A Proximité :
-  -Un vélo a la campagne
-  -Accro'sioule
-  -Wolframine ( musée de la pierre )
-  -Musée de l'automobile
-  -Village médiéval de charroux
-  -La valée de la sioule
+  -Un vélo a la campagne https://www.unveloalacampagne.fr/
+  -Accro'sioule http://accro-sioule.fr/
+  -Wolframine ( musée de la pierre ) http://espacenatureduvaldesioule.blogspot.fr/p/les-activites.html
+  -Musée de l'automobile https://museebellenaves.jimdo.com/
+  -Village médiéval de charroux http://www.charroux.com/
+  -La valée de la sioule https://www.allier-auvergne-tourisme.com/nature/espaces-naturels/la-vallee-de-la-sioule-223-1.html
 
 ##########################################################################
 #                             A demander                                 #
