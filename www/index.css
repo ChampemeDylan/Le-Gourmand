@@ -1,7 +1,7 @@
 body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
-    color: #818181;
+    color: rgba(73, 74, 135, 0.63);
 }
 h2 {
     font-size: 24px;
@@ -20,7 +20,7 @@ h4 {
 .jumbotron {
     background-color: rgb(52, 59, 93);
     color: #fff;
-    padding: 100px 25px;
+    padding: 75px 25px;
     font-family: Montserrat, sans-serif;
 }
 .container-fluid {
