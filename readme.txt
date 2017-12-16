@@ -58,3 +58,10 @@ A Proximité :
 ##########################################################################
 Quels équipements à mettre en avant ?
 Quelle couleur ?
+
+##########################################################################
+#                        CORRECTIONS A APPORTER                          #
+##########################################################################
+Responsivité de la nav-bar.
+Mettre des photos libres de droit.
+Géré le jQuery au rafraichissement de la page.
