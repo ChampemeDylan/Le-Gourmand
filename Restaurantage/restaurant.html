@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
   <title>Le Gourmand - Restaurant</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,13 +24,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#myPage">Logo</a>
+      <a class="navbar-brand" href="#myPage">Le Gourmand</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#presentation">Présentation</a></li>
         <li><a href="#photo">Photos</a></li>
-        <li><a href="#lacarte">La Carte</a></li>
+        <li><a href="#lacarte">Carte</a></li>
         <li><a href="#proximite">A proximité</a></li>
         <!-- <li><a href="#dispo">Disponibilités</a></li> -->
         <li><a href="#contact">Contact</a></li>
@@ -43,7 +42,7 @@
 <div class="jumbotron text-center">
   <h1>Le Gourmand</h1>
   <p>Votre Restaurant entre Auvergne et Bourbonnais</p>
-  <button type="button" href="#">Découvrez Notre Gîte</button>
+  <button type="button" class="btn btn-default">Découvrez Notre Gîte</button>
 </div>
 
 <!-- Container (About Section) -->
@@ -51,8 +50,10 @@
   <div class="row">
     <div class="col-sm-6">
       <h2>Découvrez notre restaurant</h2><br>
-      <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <div class="slideanim">
+        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
     </div>
     <div class="col-sm-6 text-center">
       <h2>Renseignements</h2>
@@ -86,14 +87,8 @@
                 <td>Sur réservation de Groupes</td>
               </tr>
             </tbody>
-
           </table>
-
         </div>
-      </div>
-      <br><br>
-      <div class="slideanim">
-
       </div>
     </div>
   </div>
@@ -141,46 +136,56 @@
 <!-- Container (Tarif Section) -->
 <div id="lacarte" class="container-fluid text-center">
   <div class="text-center">
-    <h2>La Carte</h2>
+    <h2>Notre carte</h2>
   </div>
   <div class="row slideanim">
-    <div class="col-sm-3 col-xs-12">
+    <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h1>La Nuitée</h1>
+          <h1>Menus</h1>
         </div>
-        <div class="panel-body">
-        </div>
-        <div class="panel-footer">
+        <div class="panel-body text-center">
+          <p><b>Formule à 10,70</b></p>
+          <p>Plat - Fromage ou Dessert - Café</p>
+          <hr>
+          <p><b>Formule à 13,70e</b></p>
+          <p>Entree - plat - Fromage - Café - Quart de vin</p>
         </div>
       </div>
     </div>
-    <div class="col-sm-3 col-xs-12">
+    <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h1>Le Week-End</h1>
+          <h1>Pizzas</h1>
         </div>
         <div class="panel-body">
+          <p><b>Seulement le vendredi soir</b></p>
         </div>
         <div class="panel-footer">
+          <button id="btnPizzas" type="button" class="btn btn-default">Voir la carte</button>
         </div>
       </div>
     </div>
-    <div class="col-sm-3 col-xs-12">
+    <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h1>La Semaine</h1>
+          <h1>Traiteur</h1>
         </div>
         <div class="panel-body">
-        </div>
-        <div class="panel-footer">
+          <p>Paté Bourbonnais</p>
+          <hr>
+          <p>Potée Auvergnate</p>
+          <hr>
+          <p>Paela</p>
+          <hr>
+          <p>Couscous</p>
         </div>
       </div>
     </div>
-    <div class="col-sm-3 col-xs-12">
+    <div class="col-sm-12 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h1>La Quinzaine</h1>
+          <h1>Carte des Pizzas</h1>
         </div>
         <div class="panel-body">
         </div>
@@ -263,13 +268,12 @@
     </div>
   </div>
 </div>
-
+</body>
 
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
 </footer>
 
 <script>
@@ -309,5 +313,4 @@ $(document).ready(function(){
 })
 </script>
 
-</body>
 </html>

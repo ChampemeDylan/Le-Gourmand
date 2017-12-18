@@ -33,7 +33,7 @@ Tarifs :
   La Quinzaine :
 
 Présentation :
-  -Cuisine ésuipée
+  -Cuisine équipée
   -Partie basse avec terasse couverte
   -Partie haute
   -Extérieur
@@ -57,11 +57,11 @@ A Proximité :
 #                             A demander                                 #
 ##########################################################################
 Quels équipements à mettre en avant ?
-Quelle couleur ?
 
 ##########################################################################
 #                        CORRECTIONS A APPORTER                          #
 ##########################################################################
-Responsivité de la nav-bar.
+Responsivité de la nav-bar. Done
+
 Mettre des photos libres de droit.
-Géré le jQuery au rafraichissement de la page.
+Gérer le jQuery au rafraichissement de la page.
