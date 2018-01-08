@@ -24,6 +24,7 @@ Horaires :
   Le vendredi -> 8h - 21h
   Samedi et Dimanche -> Sur réservation de Groupes
 
+
 # GITE #
 
 Tarifs :
