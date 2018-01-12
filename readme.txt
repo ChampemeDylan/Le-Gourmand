@@ -63,6 +63,6 @@ Quels équipements à mettre en avant ?
 #                        CORRECTIONS A APPORTER                          #
 ##########################################################################
 Responsivité de la nav-bar. Done
+Gérer le jQuery au rafraichissement de la page. Done
 
 Mettre des photos libres de droit.
-Gérer le jQuery au rafraichissement de la page.
