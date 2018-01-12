@@ -50,7 +50,7 @@
   <div class="row">
     <div class="col-sm-6">
       <h2>Découvrez notre restaurant</h2><br>
-      <div class="slideanim">
+      <div class="slideready">
         <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
@@ -58,7 +58,7 @@
     <div class="col-sm-6 text-center">
       <h2>Renseignements</h2>
       <br>
-      <div class="slideanim">
+      <div class="slideready">
         <div class="col-sm-6">
           <span class="glyphicon glyphicon-cutlery logo-small"></span>
           <h4>Cuisine Française</h4>
@@ -67,9 +67,9 @@
           <span class="glyphicon glyphicon-home logo-small"></span>
           <h4>Salle de X couverts</h4>
         </div>
-        <div class="col-sm-2">
+        <div class="col-sm-12">
         </div>
-        <div class="col-sm-8">
+        <div class="col-sm-12">
           <span class="glyphicon glyphicon-time logo-small"></span>
           <h4>Horaires</h4>
           <table class="table">
@@ -162,7 +162,7 @@
           <p><b>Seulement le vendredi soir</b></p>
         </div>
         <div class="panel-footer">
-          <button id="btnPizzas" type="button" class="btn btn-default">Voir la carte</button>
+          <button id="btnPizzasA" type="button" class="btn btn-default">Voir la carte</button>
         </div>
       </div>
     </div>
@@ -182,7 +182,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-12 col-xs-12">
+    <div class="col-sm-12 col-xs-12 cartePizzas slideready">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
           <h1>Carte des Pizzas</h1>
@@ -190,6 +190,7 @@
         <div class="panel-body">
         </div>
         <div class="panel-footer">
+          <button id="btnPizzasB" type="button" class="btn btn-default">Masquer</button>
         </div>
       </div>
     </div>
@@ -250,7 +251,7 @@
 <div id="contact" class="container-fluid">
   <h2 class="text-center">Contact</h2>
   <div class="row">
-    <div class="col-sm-5">
+    <div class="col-sm-5 slideanim">
       <h3>Contactez-nous pour réserver</h3>
       <p><span class="glyphicon glyphicon-map-marker"></span> Le Gourmand La Gare, 03330 Louroux-de-Bouble</p>
       <p><span class="glyphicon glyphicon-phone"></span>  04 70 90 49 80</p>
@@ -277,6 +278,18 @@
 </footer>
 
 <script>
+$(document).ready(function(){
+	$(".cartePizzas").hide();
+  // masquer la carte
+    $("#btnPizzasB").click(function(){
+        $(".cartePizzas").hide();
+    });
+  // afficher la carte
+    $("#btnPizzasA").click(function(){
+        $(".cartePizzas").show();
+    });
+});
+
 $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
@@ -305,11 +318,23 @@ $(document).ready(function(){
       var pos = $(this).offset().top;
 
       var winTop = $(window).scrollTop();
+        if (pos < winTop + 900) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+
+  $(window).ready(function() {
+    $(".slideready").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
         if (pos < winTop + 600) {
           $(this).addClass("slide");
         }
     });
   });
+
 })
 </script>
 
