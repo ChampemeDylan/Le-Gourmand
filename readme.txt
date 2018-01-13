@@ -57,7 +57,7 @@ A Proximité :
 ##########################################################################
 #                             A demander                                 #
 ##########################################################################
-Quels équipements à mettre en avant ?
+Comment résumer partie tarifs ?
 
 ##########################################################################
 #                        CORRECTIONS A APPORTER                          #
@@ -65,5 +65,6 @@ Quels équipements à mettre en avant ?
 Responsivité de la nav-bar. Done
 Gérer le jQuery au rafraichissement de la page. Done
 
+Ajouter la description gite/restaurant.
 Centrer le contenu du tableu des pizzas.
 Mettre des photos libres de droit.
