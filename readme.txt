@@ -65,4 +65,5 @@ Quels équipements à mettre en avant ?
 Responsivité de la nav-bar. Done
 Gérer le jQuery au rafraichissement de la page. Done
 
+Centrer le contenu du tableu des pizzas.
 Mettre des photos libres de droit.
