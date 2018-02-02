@@ -57,14 +57,18 @@ A Proximité :
 ##########################################################################
 #                             A demander                                 #
 ##########################################################################
+
 Comment résumer partie tarifs ?
 
 ##########################################################################
 #                        CORRECTIONS A APPORTER                          #
 ##########################################################################
-Responsivité de la nav-bar. Done
-Gérer le jQuery au rafraichissement de la page. Done
 
-Ajouter la description gite/restaurant.
+Changer couleur icone menu haut de page.
+Baisser qualité des photos ( temps de chargement trop long ).
+Ajouter la description gite.
 Centrer le contenu du tableu des pizzas.
 Mettre des photos libres de droit.
+
+Responsivité de la nav-bar. Done
+Gérer le jQuery au rafraichissement de la page. Done
